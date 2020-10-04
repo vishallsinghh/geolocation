@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+	<title>Geolocation and Weather App</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="container1">
+	<div class="container">
+		<div class="closing-tab">
+			<div class="circle one"></div>
+			<div class="circle two"></div>
+			<div class="circle three"></div>
+		</div>
+	 	<div id="map"> </div>
+	</div>
+	<div class="cont">
+		<div class="location">
+			<div class="country"> - </div>
+			<div class="city"></div>
+		</div>
+		<div class="icon"> <img src="icons/unknown.png"></div>
+		<div class="clock">
+			<div id="currentTime"></div>
+		</div>
+		<div class="temprature">
+			<div class="tempvalue"> - </div>
+		</div>
+		<div class="feelslike"><i>feelslike</i><p></p></div>
+		<div class="coords">
+			<div class="long"></div>
+		<div class="lat"></div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="script.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHDbXfzKfI4stcU4OlwYW37rhqSo95vY8&callback"
+  type="text/javascript"></script>
+</body>
+
+</html>

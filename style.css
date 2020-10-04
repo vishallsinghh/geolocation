@@ -1,0 +1,113 @@
+@import url(https://rsms.me/inter/inter.css);
+
+body{
+	overflow: hidden;
+	background: linear-gradient(to right, rgb(8, 27, 64), rgb(0, 0, 0)); 
+}
+#map{
+	height: 400px;
+	width: 700px;
+	z-index: 2;
+	border-radius: 10px;
+}
+.container1{
+	display: flex;
+	margin: 120px 0 0 100px;
+}
+.container{
+	transition: 0.3s all;
+	background: rgba(212,222,212,0.2);
+	height: 424px;
+	max-width: 700px;
+	padding: 16px 8px 8px 8px;
+	border-radius: 30px;
+}
+
+.container:hover{
+	transform: scale(1.01);
+}
+.closing-tab{
+	display: flex;
+	float: right;
+	margin-right: 15px;
+}
+.circle{
+	background-color: black;
+  	border-radius: 50%;
+  	width: 14px;
+  	height: 14px;
+  	margin: 0px 10px 10px 0px;
+}
+.one{
+	background-color: #1c57e3;
+}
+.two{
+	background-color: #1c57e3;
+}
+.three{
+	background-color:#ee121b ;
+	transition: 0.2s all;
+}
+.three:hover{
+	background-color: #8c0a10;
+	cursor: pointer;
+}
+.cont{
+	padding: 40px 40px 0px 30px;
+	/*background: linear-gradient(to right, rgb(7, 29, 70), rgb(70, 14, 154));*/
+    background: linear-gradient(120deg, rgb(7, 29, 70),  rgb(70, 14, 154) 120%);
+	display: flex;
+	flex-direction: column;
+	/*justify-content: center;*/
+	/*align-items: center;*/
+	border-radius: 10px;
+	margin-left: 60px;
+	height: auto;
+	width: 300px;
+	color: white; 
+	transition: 0.5s all;
+}
+.cont:hover{
+	transform: scale(1.02);
+	cursor: context-menu;
+}
+.location{
+	display: block;
+	font-size: 2em;
+}
+.country{
+	font-size: 0.9em;
+	background: black;
+	border-radius: 5px;
+	padding: 5px;
+	width: 60px;
+	display: flex;
+	justify-content: center;
+	transform: translate(-5px,-12px);
+}
+.temprature{
+	margin: 10px;
+	display: flex;
+}
+.tempvalue{
+	font-size: 4em;
+}
+.clock{
+	font-size: 1.4em;
+	margin-bottom: 15px;
+}
+.icon{
+	transform: translate(190px,-140px);
+	height: 10px;
+}
+.feelslike{
+	display: flex;
+	justify-content: center;
+}
+.coords{
+	margin-top: 30px;
+	font-size: 1.4em;
+}
+
+
+	/*background: linear-gradient(to right, rgb(7, 29, 70), rgb(70, 14, 154));*/
